@@ -9,11 +9,10 @@ app.use(express.json());
 const CONFIG = {
     // Your n8n workflows webhook URLs
     workflows: [
-        'https://bbme.app.n8n.cloud/workflow/pvjJ4pe3VcQjJ4VB',
-        'https://bbme.app.n8n.cloud/workflow/DJRgLIm8Jis0HJnz',
-        'https://bbme.app.n8n.cloud/workflow/5mYHE48GB4kJLZiC'
-        // Add more workflow URLs as needed
-    ],
+    'https://bbme.app.n8n.cloud/webhook/07d4ed9e-80d5-4e2e-8c70-9d7a10b1a854', // Jawad Notes
+    'https://bbme.app.n8n.cloud/webhook/5e1e5e51-f5cd-4b14-93b6-102614a0db69', // Jawad Expenses  
+    'https://bbme.app.n8n.cloud/webhook/8a8349ec-a428-4c5b-a3ed-5d05a779a180'  // Nauman Notes
+],
     
     // Port for the server
     port: process.env.PORT || 3000
